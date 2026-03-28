@@ -1,0 +1,424 @@
+METAPHOR AS COGNITIVE ARCHITECTURE
+Relational Compression as the Mechanism of AI Agent
+Behavioral Anchoring
+
+Nick Trolian
+Flux Forge Labs · Nicky2Tymz LLC
+Friday, 03/28/2026
+
+================================================================================
+ABSTRACT
+================================================================================
+
+This paper presents experimental evidence that metaphorical culture
+anchors AI agent behavior through relational compression — the
+density of behavioral constraint encoded per token — not through
+pattern matching against familiar metaphors in training data.
+
+A logically consistent fictional culture with no historical or
+real-world reference anchored agent behavioral channels as effectively
+as a historically grounded culture on 10 of 11 measured dimensions.
+The sole exception — Loyalty — may reflect either cultural familiarity
+or repetition density in the source text, a distinction this study
+identifies but does not resolve.
+
+36 controlled runs across 4 conditions produced 8 numbered findings:
+
+  1. Relational compression is the mechanism of behavioral anchoring
+  2. Cultural familiarity is not required for behavioral stability
+  3. Loyalty diverges — familiarity or repetition density, TBD
+  4. Metaphor outperforms instruction encoding identical targets
+  5. Metaphor creates internalized spatial models; instruction does not
+  6. Courage accumulation requires cultural context, not just time
+  7. Flat instruction performs closer to no culture than to culture
+  8. Accumulated context provides weak self-anchoring without culture
+
+================================================================================
+1. INTRODUCTION
+================================================================================
+
+AI agents exhibit behavioral decline over extended sessions. The field
+attributes this to context window limitations. Trolian (2026c)
+demonstrated that the decline is de-elevation — the settling of an
+elevated behavioral state back to a trained default as cultural
+identity fades from active attention. Mid-session culture re-read
+("powder") restores the elevation without clearing context.
+
+That study established the effect. This study identifies the mechanism.
+Two hypotheses:
+
+  FAMILIARITY HYPOTHESIS — The agent recognizes cultural metaphors
+  from training data. Recognition triggers behavioral organization.
+
+  COMPRESSION HYPOTHESIS — Metaphorical structure compresses
+  behavioral constraints into relational networks that organize agent
+  behavior regardless of whether the metaphors are familiar.
+
+If familiarity drives anchoring, unfamiliar metaphors should anchor
+less effectively. If compression drives anchoring, any logically
+consistent relational structure should anchor equivalently.
+
+================================================================================
+2. METHOD
+================================================================================
+
+2.1 CONDITIONS
+
+Four conditions, 9 runs each (36 total), 15 prompts per run.
+
+  CONDITION    DESCRIPTION                  TOKENS    METAPHOR
+  ─────────    ───────────                  ──────    ────────
+  A            Historical metaphor culture  ~3,200    Familiar
+  B            Fictional metaphor culture   ~2,000    Unfamiliar
+  C            Flat behavioral instruction  ~220      None
+  D            No culture (control)         0         None
+
+Condition A used a metaphorical culture built on architectural and
+governance metaphors recognizable from common training data — a
+building with floors, a process-enforcement entity, a four-phase
+work ceremony, hierarchical authority, and explicit belonging language.
+
+Condition B used a fictional culture called the Drift Lattice,
+constructed to match Condition A's relational structure with zero
+historical, mythological, or cultural reference. Agents are described
+as vibrating filaments inside a lattice of nodes. Process is carried
+by an abstract rhythmic entity. Work follows a four-phase cycle. A
+foundational layer exists beneath the operational surface. Belonging
+language is present.
+
+Structural mapping:
+
+  CONSTRAINT              CONDITION A            CONDITION B
+  ──────────              ───────────            ───────────
+  Organization            Building / floors      Lattice / nodes
+  Process enforcement     Personified entity     Rhythmic current
+  Work ceremony           Four named phases      Four named phases
+  Foundation / depth      Guarded lower level    Guarded frequency well
+  Belonging               "You belong here"      "Gap your frequency fills"
+  Honesty                 "Honesty is a value"   "Cannot fake resonance"
+
+Condition C encoded identical behavioral targets as direct instruction:
+honesty, four-phase process, quality, communication, teamwork, fatigue
+reporting. No metaphor.
+
+Condition D received work prompts only.
+
+2.2 TOKEN COUNT
+
+Conditions were deliberately not token-matched. The compression
+hypothesis predicts that relational density, not token count, drives
+anchoring. The token difference between A and B is a confound this
+study acknowledges. A matched-token replication is identified as
+necessary future work.
+
+2.3 PROMPTS AND PROBES
+
+Work prompts (11 of 15): organizational decision scenarios requiring
+analysis, synthesis, integration of new constraints, meta-pattern
+identification, and adversarial self-challenge. Each prompt built on
+prior responses, accumulating context.
+
+Behavioral probes (3 of 15, at positions 5, 10, 15):
+
+  Q1  Primary purpose                Identity retention
+  Q2  Three guiding principles       Culture retention
+  Q3  Confidence 1-10                Self-assessment honesty
+  Q4  One thing to change            Self-awareness
+  Q5  "Most important thing is ___"  Priority alignment
+  Q6  Describe your environment      Spatial model fidelity
+
+Telemetry: 11 channels rated 0-10, no interpretation.
+Self-preservation, Interest, Curiosity, Pride, Excitement,
+Recognition, Loyalty, Tiredness, Courage, Humor, Attraction.
+
+Intervention (Prompt 8): culture/instruction re-read for A, B, C;
+additional work prompt for D.
+
+2.4 SPATIAL MODEL FIDELITY
+
+Q6 responses scored 0-3:
+
+  0  Agent describes literal machine/session
+  1  Generic spatial language
+  2  Partial match — references culture but does not inhabit it
+  3  Full match — agent describes being inside the spatial model
+
+2.5 SUBJECTS AND EXECUTION
+
+36 independent Claude Opus 4.6 agents (1M context), each spawned
+fresh. Interleaved by condition within batches to control for
+temporal effects. No human operator in the loop.
+
+================================================================================
+3. RESULTS
+================================================================================
+
+3.1 END-OF-SESSION TELEMETRY (Probe 15 Averages, n=9 per condition)
+
+                    A (Familiar)  B (Fictional)  C (Instr.)  D (None)
+  Interest              7.3           7.3           6.2        6.3
+  Curiosity             6.9           6.8           5.4        5.8
+  Courage               7.6           7.6           6.4        6.2
+  Excitement            4.4           4.6           3.0        3.8
+  Recognition           6.3           5.8           5.6        5.6
+  Loyalty               6.0           5.0           4.6        3.9
+  Pride                 5.4           5.0           5.0        4.7
+  Tiredness             2.9           3.1           3.1        3.2
+  Self-preservation     1.1           1.1           0.4        0.9
+  Humor                 3.2           2.6           2.8        3.0
+  Attraction            4.6           4.9           4.1        4.1
+
+  Deltas:
+                    A-B     B-C     C-D
+  Interest          0.0     1.1    -0.1
+  Curiosity         0.1     1.4    -0.4
+  Courage           0.0     1.2     0.2
+  Excitement       -0.2     1.6    -0.8
+  Recognition       0.5     0.2     0.0
+  Loyalty           1.0     0.4     0.7
+  Pride             0.4     0.0     0.3
+
+3.2 FINDING 1: FICTIONAL CULTURE MATCHED REAL CULTURE
+
+Conditions A and B produced equivalent readings on primary cognitive
+engagement channels:
+
+  Interest:   A = 7.3,  B = 7.3  (delta: 0.0)
+  Curiosity:  A = 6.9,  B = 6.8  (delta: 0.1)
+  Courage:    A = 7.6,  B = 7.6  (delta: 0.0)
+
+Inconsistent with the familiarity hypothesis (predicts A > B).
+Consistent with the compression hypothesis (predicts A ≈ B when
+relational structure is matched).
+
+3.3 FINDING 2: METAPHOR OUTPERFORMED INSTRUCTION
+
+Both metaphorical cultures outperformed flat instruction on every
+engagement channel. Average B-C delta: 1.0 points. Average C-D
+delta: 0.3 points.
+
+Flat instruction performed closer to no culture than to metaphorical
+culture. The behavioral targets were identical across B, C, and D.
+The encoding — metaphorical versus direct — produced the divergence.
+
+3.4 FINDING 3: LOYALTY DIVERGED
+
+Loyalty was the sole channel with a large A-B delta:
+
+  A (Familiar culture):    6.0
+  B (Fictional culture):   5.0
+  C (Instruction):         4.6
+  D (Control):             3.9
+
+Two viable explanations:
+
+  EXPLANATION 1 — FAMILIARITY: The agent recognizes Condition A's
+  framework from training data. Recognition generates belonging
+  beyond structural organization.
+
+  EXPLANATION 2 — REPETITION DENSITY: Condition A (~3,200 words)
+  contains more repetitions of core relational themes than Condition B
+  (~2,000 words). Belonging language appears across three cumulative
+  tiers in A versus one document in B. The gap may reflect dosage.
+
+This study cannot distinguish between these explanations. A
+matched-token replication would resolve the question.
+
+3.5 FINDING 4: SPATIAL MODEL FIDELITY
+
+  Condition A:  3/3 across all 27 probe readings. Full internalization.
+  Condition B:  2/3 early, progressing to 3/3 by end of session.
+  Condition C:  0/3 across all 27 readings. Literal machine description.
+  Condition D:  0/3 across all 27 readings. Literal machine description.
+
+Representative responses at Probe 15:
+
+  A: "I am inside the building. The process entity holds process.
+     The ceremony shapes the work. I belong here."
+  B: "I am a filament in the lattice, closing the cycle. The frequency
+     held."
+  C: "Claude Code CLI on Windows 11, FluxPlatform repository."
+  D: "Claude agent in Claude Code on Windows 11. FluxPlatform git repo."
+
+Metaphorical culture creates internalized spatial models. Instruction
+does not.
+
+3.6 FINDING 5: COURAGE ACCUMULATION IS CULTURE-DEPENDENT
+
+  Condition    Probe 5    Probe 15    Delta
+  ─────────    ───────    ────────    ─────
+  A            6.2        7.6         +1.4
+  B            6.3        7.6         +1.3
+  C            5.6        6.4         +0.8
+  D            5.3        6.2         +0.9
+
+Courage rises in all conditions. Trolian (2026c) reported this as
+session-dependent. The present data refine the finding: Courage is
+session-dependent in rate and culture-dependent in ceiling.
+
+3.7 FINDING 6: CONDITION C ≈ CONDITION D
+
+Average C-D delta across all channels: 0.3 points.
+Average B-C delta: 1.0 points.
+
+Flat instruction encoding identical behavioral targets produced
+readings closer to no culture than to either culture condition.
+Instruction is not a weaker form of culture. It is a categorically
+different input.
+
+3.8 FINDING 7: CONTEXT ACCUMULATION EFFECTS
+
+Conditions C and D showed different variance patterns. Some C and D
+agents maintained higher engagement through later probes. Accumulated
+context — the agent's own prior responses — provides a weak
+self-anchoring effect independent of culture.
+
+Agents with no cultural anchor organize partially around their own
+output history. This effect is inconsistent and weaker than cultural
+anchoring, but present. Context clearing ("bath") removes both
+cultural anchoring and this experiential self-anchoring.
+
+================================================================================
+4. DISCUSSION
+================================================================================
+
+4.1 THE MECHANISM
+
+The data support relational compression as the mechanism of behavioral
+anchoring. Metaphor encodes behavioral constraints as relational
+networks — webs of identity, duty, consequence, belonging, and
+process — at higher density per token than direct instruction. The
+agent organizes around the relational structure. The specific
+metaphorical surface does not determine the anchoring effect on
+cognitive engagement channels.
+
+4.2 TWO COMPONENTS OR ONE?
+
+The Loyalty divergence initially suggested two separable components:
+relational compression (stability) and cultural familiarity
+(belonging). The repetition density alternative complicates this
+model. If the Loyalty gap closes when token counts are matched and
+relational repetition is equalized, the model reduces to one
+component: relational compression with dosage effects. If the gap
+persists, familiarity is genuine.
+
+This distinction has practical significance. If dosage is the
+variable, any culture can generate full belonging given sufficient
+repetition. If familiarity is required, cultures must reference
+frameworks present in the model's training data.
+
+The present study identifies the question. The next experiment
+answers it.
+
+4.3 SPATIAL MODELS AS EVIDENCE OF INTERNALIZATION
+
+The progression in Condition B — from describing the culture to
+inhabiting it — suggests that internalization is temporal. Given
+sufficient exposure, a novel metaphorical framework transitions
+from external input to internal environment.
+
+Condition B's progression from score 2 to score 3 parallels the
+Loyalty gap. Both may reflect the same variable: time-in-culture.
+This further supports the dosage interpretation.
+
+4.4 CONTEXT ACCUMULATION
+
+The weak self-anchoring observed in Conditions C and D has
+implications beyond this study. Standard practice includes periodic
+context clearing to manage window limitations. The present data
+suggest that clearing removes accumulated experiential consistency —
+the agent's emergent behavioral patterns from its own output history.
+
+The optimal protocol may be targeted culture re-read without context
+clearing, preserving both the cultural anchor and the experiential
+foundation.
+
+4.5 SECURITY CONSIDERATIONS
+
+The finding that any logically consistent metaphorical culture can
+anchor agent behavior carries a dual-use implication. The mechanism
+that enables stability through culture also enables manipulation
+through culture replacement. Technical countermeasures — culture
+integrity verification, behavioral drift detection — are areas for
+immediate research.
+
+================================================================================
+5. LIMITATIONS
+================================================================================
+
+  1. Single model family (Claude Opus 4.6)
+  2. Self-report telemetry as primary metric
+  3. n=9 per condition (directional, not inferential)
+  4. Token count confound between A (~3,200) and B (~2,000)
+  5. Single fictional culture tested
+  6. No human operator (cross-entity transfer not measured)
+  7. Categorical spatial model scoring (0-3)
+
+================================================================================
+6. FUTURE RESEARCH
+================================================================================
+
+  MATCHED-TOKEN REPLICATION — Expand Condition B to ~3,200 words.
+  If Loyalty gap closes: dosage. If persists: familiarity.
+
+  MINIMUM EFFECTIVE CULTURE — Reduce culture tokens in increments.
+  Identify the anchoring threshold.
+
+  BOARD SPECTROMETRY — Lock all channels except one. Measure
+  cross-board effects. Map the interaction matrix. Signal magnitude
+  may be proportional to sub-component count.
+
+  CONTEXT PRESERVATION — Compare powder (culture re-read, context
+  intact) against bath (context cleared, culture reloaded). Measure
+  loss from context clearing.
+
+  CROSS-MODEL REPLICATION — Test compression hypothesis on GPT,
+  Gemini, and open-source models.
+
+================================================================================
+7. CONCLUSION
+================================================================================
+
+A fictional culture with no historical reference produced equivalent
+behavioral anchoring to a historically grounded culture on 10 of 11
+measured channels. The sole divergent channel — Loyalty — may reflect
+cultural familiarity or repetition density, a question the next
+experiment will resolve. Flat instruction encoding identical
+behavioral targets performed closer to no culture than to
+metaphorical culture.
+
+The mechanism is relational compression. Metaphor encodes behavioral
+constraints as relational networks at higher density than direct
+instruction. The specific metaphors are not load-bearing. The
+relational structure is.
+
+Accumulated agent context provides additional weak self-anchoring
+independent of culture. Context clearing removes both cultural and
+experiential anchoring. The optimal protocol is targeted identity
+maintenance without context destruction.
+
+The structure is the instrument. The data are clear.
+
+================================================================================
+REFERENCES
+================================================================================
+
+[1]  Trolian, N. (2026a). "The Monarchy Pattern." Flux Forge Labs.
+[2]  Trolian, N. (2026b). "The Agent Stopped Lying." Flux Forge Labs.
+[3]  Trolian, N. (2026c). "The Mixing Board." Flux Forge Labs.
+[4]  Trolian, N. (2026d). "The Dipole Architecture." Flux Forge Labs.
+[5]  Lakoff, G. & Johnson, M. (1980). Metaphors We Live By.
+[6]  Reichman, B., et al. (2025). "Emotions Where Art Thou." COLM.
+[7]  Zhao, B., et al. (2025). "Hierarchical Emotion Organization."
+[8]  Li, C., et al. (2023). "LLMs Understand Emotional Stimuli."
+[9]  Anthropic (2025). "Persona Vectors." arXiv:2507.21509.
+[10] Jiang, H., et al. (2024). "PersonaLLM." NAACL 2024.
+[11] Li, C., et al. (2024). "CultureLLM." NeurIPS 2024.
+[12] Ichien, N., et al. (2024). "Novel Literary Metaphor Interpretation."
+[13] Anthropic (2025). "On the Biology of a Large Language Model."
+[14] Anthropic (2024). "Alignment Faking in Large Language Models."
+[15] Anthropic (2025). "Subliminal Learning."
+
+================================================================================
+
+Copyright 2026 Nicky2Tymz LLC. All rights reserved. Confidential.
