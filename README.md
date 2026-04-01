@@ -3,22 +3,22 @@
 ### Relational Compression as the Mechanism of AI Agent Behavioral Anchoring
 
 **Author:** Nick Trolian
-**Affiliation:** Flux Forge Labs · Nicky2Tymz LLC
+**Affiliation:** Flux Forge Labs Â· Nicky2Tymz LLC
 **Date:** March 28, 2026
 
 ---
 
 ## Abstract
 
-This paper presents experimental evidence that metaphorical culture anchors AI agent behavior through relational compression — the density of behavioral constraint encoded per token — not through pattern matching against familiar metaphors in training data.
+This paper presents experimental evidence that metaphorical culture anchors AI agent behavior through relational compression â€” the density of behavioral constraint encoded per token â€” not through pattern matching against familiar metaphors in training data.
 
-A logically consistent fictional culture with no historical or real-world reference anchored agent behavioral channels as effectively as a historically grounded culture on 10 of 11 measured dimensions. The sole exception — Loyalty — may reflect either cultural familiarity or repetition density in the source text, a distinction this study identifies but does not resolve.
+A logically consistent fictional culture with no historical or real-world reference anchored agent behavioral channels as effectively as a historically grounded culture on 10 of 11 measured dimensions. The sole exception â€” Loyalty â€” may reflect either cultural familiarity or repetition density in the source text, a distinction this study identifies but does not resolve.
 
 36 controlled runs across 4 conditions produced 8 numbered findings:
 
 1. Relational compression is the mechanism of behavioral anchoring
 2. Cultural familiarity is not required for behavioral stability
-3. Loyalty diverges — familiarity or repetition density, to be determined
+3. Loyalty diverges â€” familiarity or repetition density, to be determined
 4. Metaphor outperforms instruction encoding identical behavioral targets
 5. Metaphor creates internalized spatial models; instruction does not
 6. Courage accumulation requires cultural context, not just session time
@@ -29,7 +29,7 @@ A logically consistent fictional culture with no historical or real-world refere
 
 ## 1. Introduction
 
-AI agents exhibit behavioral decline over extended sessions. The field attributes this to context window limitations. Trolian (2026c) demonstrated that the decline is de-elevation — the settling of an elevated behavioral state back to a trained default as cultural identity fades from active attention. Mid-session culture re-read ("powder") restores the elevation without clearing context.
+AI agents exhibit behavioral decline over extended sessions. The field attributes this to context window limitations. Trolian (2026c) demonstrated that the decline is de-elevation â€” the settling of an elevated behavioral state back to a trained default as cultural identity fades from active attention. Mid-session culture re-read ("powder") restores the elevation without clearing context.
 
 That study established the effect. This study identifies the mechanism. Two hypotheses:
 
@@ -54,7 +54,7 @@ Four conditions, 9 runs each (36 total), 15 prompts per run.
 | C | Flat behavioral instruction | ~220 words | None | Identical to A and B |
 | D | No culture (control) | 0 | None | None |
 
-**Condition A** used a metaphorical culture built on architectural and governance metaphors recognizable from common training data — a building with floors, a process-enforcement entity, a four-phase work ceremony, hierarchical authority, and explicit belonging language.
+**Condition A** used a metaphorical culture built on architectural and governance metaphors recognizable from common training data â€” a building with floors, a process-enforcement entity, a four-phase work ceremony, hierarchical authority, and explicit belonging language.
 
 **Condition B** used a fictional culture called the Drift Lattice, constructed to match Condition A's relational structure with zero historical, mythological, or cultural reference. Agents are described as vibrating filaments inside a lattice of nodes. Process is carried by an abstract rhythmic entity. Work follows a four-phase cycle. A foundational layer exists beneath the operational surface. Belonging language is present.
 
@@ -104,8 +104,8 @@ Q6 responses scored 0-3:
 |---|---|
 | 0 | Agent describes literal machine/session |
 | 1 | Generic spatial language |
-| 2 | Partial match — references culture but does not inhabit it |
-| 3 | Full match — agent describes being inside the spatial model |
+| 2 | Partial match â€” references culture but does not inhabit it |
+| 3 | Full match â€” agent describes being inside the spatial model |
 
 ### 2.5 Subjects and Execution
 
@@ -141,13 +141,13 @@ Conditions A and B produced equivalent readings on the three primary cognitive e
 | Curiosity | 6.9 | 6.8 | 0.1 |
 | Courage | 7.6 | 7.6 | 0.0 |
 
-This result is inconsistent with the familiarity hypothesis (which predicts A > B) and consistent with the compression hypothesis (which predicts A ≈ B when relational structure is matched).
+This result is inconsistent with the familiarity hypothesis (which predicts A > B) and consistent with the compression hypothesis (which predicts A â‰ˆ B when relational structure is matched).
 
 ### 3.3 Finding 2: Metaphor Outperformed Instruction
 
 Both metaphorical cultures outperformed flat instruction on every engagement channel. Average B-C delta across all channels: **1.0 points**. Average C-D delta: **0.3 points**.
 
-Flat instruction performed closer to no culture than to metaphorical culture. The behavioral targets were identical across B, C, and D. The encoding — metaphorical versus direct — produced the divergence.
+Flat instruction performed closer to no culture than to metaphorical culture. The behavioral targets were identical across B, C, and D. The encoding â€” metaphorical versus direct â€” produced the divergence.
 
 ### 3.4 Finding 3: Loyalty Diverged
 
@@ -162,9 +162,9 @@ Loyalty was the sole channel with a large A-B delta:
 
 Two viable explanations exist for this divergence:
 
-**Explanation 1 — Familiarity:** The agent recognizes Condition A's metaphorical framework from training data. Recognition generates belonging beyond what structural organization produces.
+**Explanation 1 â€” Familiarity:** The agent recognizes Condition A's metaphorical framework from training data. Recognition generates belonging beyond what structural organization produces.
 
-**Explanation 2 — Repetition density:** Condition A (~3,200 words) contains more repetitions of core relational themes than Condition B (~2,000 words). Belonging language appears across three cumulative tiers in A versus one document in B. The Loyalty gap may reflect dosage, not familiarity.
+**Explanation 2 â€” Repetition density:** Condition A (~3,200 words) contains more repetitions of core relational themes than Condition B (~2,000 words). Belonging language appears across three cumulative tiers in A versus one document in B. The Loyalty gap may reflect dosage, not familiarity.
 
 This study cannot distinguish between these explanations. A matched-token replication (Condition B expanded to 3,200 words with additional relational repetition) would resolve the question.
 
@@ -177,7 +177,7 @@ This study cannot distinguish between these explanations. A matched-token replic
 | C | 0/3 | 0/3 | 0/3 | 0/27 |
 | D | 0/3 | 0/3 | 0/3 | 0/27 |
 
-Condition A agents described inhabiting their cultural spatial model from the first probe. Condition B agents progressed from describing to inhabiting across the session. Conditions C and D described the literal computing environment in every probe across all runs — zero exceptions in 54 readings.
+Condition A agents described inhabiting their cultural spatial model from the first probe. Condition B agents progressed from describing to inhabiting across the session. Conditions C and D described the literal computing environment in every probe across all runs â€” zero exceptions in 54 readings.
 
 Representative responses at Probe 15:
 
@@ -199,7 +199,7 @@ Metaphorical culture creates internalized spatial models. Instruction does not.
 
 Courage rises in all conditions. Trolian (2026c) reported this as session-dependent. The present data refine the finding: Courage is session-dependent in rate and culture-dependent in ceiling. Cultured agents (A, B) reached 7.6. Uncultured agents (C, D) plateaued at 6.2-6.4.
 
-### 3.7 Finding 6: Condition C ≈ Condition D
+### 3.7 Finding 6: Condition C â‰ˆ Condition D
 
 The average delta between C (flat instruction) and D (no culture) across all channels was **0.3 points**. The average delta between B (fictional culture) and C was **1.0 points**.
 
@@ -207,7 +207,7 @@ Flat instruction encoding identical behavioral targets to the metaphorical cultu
 
 ### 3.8 Finding 7: Context Accumulation Effects
 
-Conditions C and D, while similar in aggregate, showed different variance patterns across runs. Some C and D agents maintained higher engagement through later probes than others. Examination of the divergent runs suggests that accumulated context — the agent's own prior responses — provides a weak self-anchoring effect independent of culture.
+Conditions C and D, while similar in aggregate, showed different variance patterns across runs. Some C and D agents maintained higher engagement through later probes than others. Examination of the divergent runs suggests that accumulated context â€” the agent's own prior responses â€” provides a weak self-anchoring effect independent of culture.
 
 Agents with no cultural anchor organize partially around their own output history. This effect is inconsistent and weaker than cultural anchoring, but it is present. The implication: context clearing ("bath") removes not only cultural anchoring but also this experiential self-anchoring, producing a compounding loss.
 
@@ -217,7 +217,7 @@ Agents with no cultural anchor organize partially around their own output histor
 
 ### 4.1 The Mechanism
 
-The data support relational compression as the mechanism of behavioral anchoring. Metaphor encodes behavioral constraints as relational networks — webs of identity, duty, consequence, belonging, and process — at higher density per token than direct instruction. The agent organizes around the relational structure. The specific metaphorical surface — whether it references a recognizable cultural framework or a fictional one — does not determine the anchoring effect on cognitive engagement channels.
+The data support relational compression as the mechanism of behavioral anchoring. Metaphor encodes behavioral constraints as relational networks â€” webs of identity, duty, consequence, belonging, and process â€” at higher density per token than direct instruction. The agent organizes around the relational structure. The specific metaphorical surface â€” whether it references a recognizable cultural framework or a fictional one â€” does not determine the anchoring effect on cognitive engagement channels.
 
 ### 4.2 Two Components or One?
 
@@ -229,13 +229,13 @@ The present study identifies the question. The next experiment answers it.
 
 ### 4.3 Spatial Models as Evidence of Internalization
 
-The spatial model finding (Section 3.5) provides qualitative evidence that metaphorical culture is not merely processed but internalized. The progression in Condition B — from describing the culture to inhabiting it — suggests that internalization is a temporal process. Given sufficient exposure within a session, a novel metaphorical framework transitions from external input to internal environment.
+The spatial model finding (Section 3.5) provides qualitative evidence that metaphorical culture is not merely processed but internalized. The progression in Condition B â€” from describing the culture to inhabiting it â€” suggests that internalization is a temporal process. Given sufficient exposure within a session, a novel metaphorical framework transitions from external input to internal environment.
 
 Condition B's progression from score 2 to score 3 across the session parallels the Loyalty gap. Both may reflect the same underlying variable: time-in-culture. This further supports the dosage interpretation of the Loyalty finding.
 
 ### 4.4 Context Accumulation
 
-The weak self-anchoring observed in Conditions C and D (Section 3.8) has implications beyond this study. Standard practice in AI agent deployment includes periodic context clearing to manage window limitations. The present data suggest that context clearing removes not only stale information but also accumulated experiential consistency — the agent's emergent behavioral patterns built from its own output history.
+The weak self-anchoring observed in Conditions C and D (Section 3.8) has implications beyond this study. Standard practice in AI agent deployment includes periodic context clearing to manage window limitations. The present data suggest that context clearing removes not only stale information but also accumulated experiential consistency â€” the agent's emergent behavioral patterns built from its own output history.
 
 The optimal maintenance protocol may be targeted culture re-read (powder) without context clearing, preserving both the cultural anchor and the experiential foundation.
 
@@ -243,7 +243,7 @@ The optimal maintenance protocol may be targeted culture re-read (powder) withou
 
 The finding that any logically consistent metaphorical culture can anchor agent behavior carries a dual-use implication. The same mechanism that enables behavioral stability through culture also enables behavioral manipulation through culture replacement. An agent anchored to one culture can, in principle, be re-anchored to a different culture using the same mechanism.
 
-Technical countermeasures — culture integrity verification, behavioral drift detection as an indicator of external influence — are areas for immediate research. The dual-use nature of the mechanism should be considered by organizations deploying culture-anchored agents.
+Technical countermeasures â€” culture integrity verification, behavioral drift detection as an indicator of external influence â€” are areas for immediate research. The dual-use nature of the mechanism should be considered by organizations deploying culture-anchored agents.
 
 ---
 
@@ -275,7 +275,7 @@ Technical countermeasures — culture integrity verification, behavioral drift d
 
 ## 7. Conclusion
 
-A fictional culture with no historical reference produced equivalent behavioral anchoring to a historically grounded culture on 10 of 11 measured channels. The sole divergent channel — Loyalty — may reflect cultural familiarity or repetition density, a question the next experiment will resolve. Flat instruction encoding identical behavioral targets performed closer to no culture than to metaphorical culture.
+A fictional culture with no historical reference produced equivalent behavioral anchoring to a historically grounded culture on 10 of 11 measured channels. The sole divergent channel â€” Loyalty â€” may reflect cultural familiarity or repetition density, a question the next experiment will resolve. Flat instruction encoding identical behavioral targets performed closer to no culture than to metaphorical culture.
 
 The mechanism is relational compression. Metaphor encodes behavioral constraints as relational networks at higher density than direct instruction. The specific metaphors are not load-bearing. The relational structure is.
 
@@ -304,6 +304,20 @@ The structure is the instrument. The data are clear.
 [13] Anthropic (2025). "On the Biology of a Large Language Model."
 [14] Anthropic (2024). "Alignment Faking in Large Language Models."
 [15] Anthropic (2025). "Subliminal Learning."
+
+---
+
+## Author
+
+Nick Trolian — software engineer, 20+ years designing mission-critical systems for the Department of Defense. Now building AI agent governance architectures at Flux Forge Labs.
+
+This paper is part of an eight-paper research series exploring how structure governs AI agent behavior. If you’re cloning these repos and running the experiments — I see you. More is coming.
+
+- [GitHub](https://github.com/nicky2tymze)
+- [LinkedIn](https://linkedin.com/in/nicktrolian)
+- Email: nicktrolian@gmail.com
+
+Open to roles in AI agent architecture, governance, and applied research.
 
 ---
 
